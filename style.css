@@ -1,7 +1,9 @@
 header {
   background-color: green;
 }
-
+header:hover {
+  background-color: red;
+}
 body{
-  background:#2D8067; 
+  background:#2D8067
 }
