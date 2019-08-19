@@ -7,8 +7,7 @@
   background-image: url("../img/header_bg.jpg");
   background-size: cover;
   grid-template-columns: 1fr 2.5fr 1fr 2fr;
-  grid-template-areas: ". . . header-login" "header-section header-section header-section header-section";
-  grid-template-rows: 1fr 7fr;
+  grid-template-rows: 117px 549px;
   align-items: center;
   font-family: sans-serif;
   font-size: 12.5px;
@@ -19,32 +18,48 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr); }
   .header-login {
+    grid-column: 4/end;
     justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr;
     justify-items: center;
     align-items: center;
-    grid-column-gap: 20px;
-    grid-area: header-login; }
+    grid-column-gap: 20px; }
     .header-login-button {
       border: 1px solid white;
       padding: 10px 30px;
       border-radius: 2px; }
   .header-section {
+    grid-row: 2/end;
+    grid-column: 1/end;
     border-top: 1px solid #a3a3c2;
-    grid-area: header-section;
     color: white;
     display: grid;
+    grid-template-rows: 224px 224px 80px 20px;
+    grid-template-columns: 1fr 10fr 1fr;
     justify-items: center;
     align-self: stretch; }
     .header-section-text {
       text-align: center;
-      padding-top: 100px; }
+      padding-top: 100px;
+      grid-column: 1/end; }
       .header-section-text h1 {
-        padding-bottom: 25px;
         font-size: 30px; }
       .header-section-text p {
+        padding-top: 25px;
         font-size: 17px; }
+    .header-section-selections {
+      grid-row-start: 3;
+      grid-column: 2/3;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr) 0.75fr;
+      align-items: center;
+      background-color: white;
+      border-radius: 10px;
+      grid-column-gap: 10px; }
+      .header-section-selections span {
+        display: block;
+        color: red; }
   .header a {
     text-decoration: none;
     color: white; }
