@@ -7,6 +7,7 @@
   display: grid
   grid-template-columns: 1fr 1fr 1fr
   grid-template-rows: minmax(70px, 1fr) 4fr 4fr 1fr
+  height: 800px
   align-items: center
   justify-items: center
   &-menu
@@ -15,7 +16,7 @@
     grid-row-start: 2
     grid-column: 1 / end
     align-self: flex-end
-    font-family: "﻿Raleway-Regular", "﻿AdobeInvisFont", "﻿MyriadPro-Regular", sans-serif
+    font-family: "﻿Raleway-Regular", sans-serif
     color: rgba(255, 255, 255, 255)
     text-align: center
     h1
@@ -33,10 +34,55 @@
     grid-column: 1 / end
     margin-top: 50px
     padding: 16px 34px 21px
-    font-family: "﻿Raleway-Bold", "﻿AdobeInvisFont", "﻿MyriadPro-Regular", sans-serif
+    font-family: "﻿Raleway-Bold", sans-serif
     font-size: 10pt
     color: rgba(27, 27, 27, 255)
     letter-spacing: 4px
   &-arrow
     grid-row-start: 4
     grid-column: 1 / end
+
+.mountain
+  display: grid
+  justify-items: center
+  grid-template-rows: 265px 92px 300px
+  background-color: #ffffff
+  text-align: center
+  article
+    grid-row-start: 3
+    align-self: flex-start
+    font-family: "﻿Raleway-Regular", sans-serif
+    font-size: 15pt
+    color: rgba(112, 112, 112, 255)
+    width: 55%
+    text-align: center
+    word-spacing: 6px
+    line-height: 30px
+    color: #707070
+  img
+    align-self: flex-end
+
+.services
+  background-color: #f4f4f4
+  display: grid
+  grid-template-columns: 1.25fr 4fr 1.25fr
+  height: 930px
+  grid-template-rows: 130px 135px
+  justify-items: center
+  align-items: flex-end
+  &-axes
+    grid-column: 1 / end
+  &-text
+    text-align: center
+    grid-column: 1 / end
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular
+    color: rgba(27, 27, 27, 255)
+    h1
+      letter-spacing: 15px
+      font-size: 20pt
+    p
+      word-spacing: 6px
+      color: #707070
+      font-size: 15pt
+      width: 754px
+  &-features
