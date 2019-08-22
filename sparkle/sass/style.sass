@@ -65,9 +65,8 @@
 .services
   background-color: #f4f4f4
   display: grid
-  grid-template-columns: 1.25fr 4fr 1.25fr
   height: 930px
-  grid-template-rows: 130px 135px
+  grid-template-rows: 130px 135px 665px
   justify-items: center
   align-items: flex-end
   &-axes
@@ -75,14 +74,79 @@
   &-text
     text-align: center
     grid-column: 1 / end
-    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
     color: rgba(27, 27, 27, 255)
     h1
       letter-spacing: 15px
       font-size: 20pt
     p
       word-spacing: 6px
+      margin-top: 41px
       color: #707070
       font-size: 15pt
-      width: 754px
+      width: 764px
+      height: 44px
+      line-height: 30px
   &-features
+    height: 542px
+    margin-bottom: 37px
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-template-rows: 350px 165px
+    grid-column-gap: 28px
+    grid-row-gap: 28px
+    text-align: center
+    > div
+      box-shadow: 0 0 20px #e1e1e1
+    &-desc
+      background-color: #ffffff
+      display: grid
+      width: 230px
+      height: 310px
+      justify-items: center
+      padding: 20px
+      h1
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+        font-size: 15pt
+        color: rgba(27, 27, 27, 255)
+        letter-spacing: 8px
+      p
+        font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular
+        font-size: 12pt
+        color: rgba(112, 112, 112, 255)
+        word-spacing: 6px
+        line-height: 25px
+    &-graph
+      background-color: #ffffff
+      text-align: left
+      padding: 7px
+      progress::-webkit-progress-bar
+        width: 247px
+        height: 5px
+        margin-bottom: 15px
+        background-color: #f4f4f4
+
+      progress::-webkit-progress-value
+        width: 247px
+        height: 5px
+        margin-bottom: 15px
+        background-color: #ffe500
+
+      progress::-moz-progress-bar
+        width: 247px
+        height: 5px
+        margin-bottom: 15px
+        background-color: #f4f4f4
+        color: #ffe500
+
+      progress
+        width: 247px
+        height: 5px
+        margin-bottom: 15px
+        background-color: #f4f4f4
+        color: #ffe500
+      p
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+        font-size: 13pt
+        color: rgba(27, 27, 27, 255)
+        margin-bottom: 10px

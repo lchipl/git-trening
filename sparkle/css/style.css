@@ -66,9 +66,8 @@
 .services {
   background-color: #f4f4f4;
   display: grid;
-  grid-template-columns: 1.25fr 4fr 1.25fr;
   height: 930px;
-  grid-template-rows: 130px 135px;
+  grid-template-rows: 130px 135px 665px;
   justify-items: center;
   align-items: flex-end; }
   .services-axes {
@@ -76,15 +75,78 @@
   .services-text {
     text-align: center;
     grid-column: 1/end;
-    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
     color: #1b1b1b; }
     .services-text h1 {
       letter-spacing: 15px;
       font-size: 20pt; }
     .services-text p {
       word-spacing: 6px;
+      margin-top: 41px;
       color: #707070;
       font-size: 15pt;
-      width: 754px; }
+      width: 764px;
+      height: 44px;
+      line-height: 30px; }
+  .services-features {
+    height: 542px;
+    margin-bottom: 37px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 350px 165px;
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+    text-align: center; }
+    .services-features > div {
+      box-shadow: 0 0 20px #e1e1e1; }
+    .services-features-desc {
+      background-color: #ffffff;
+      display: grid;
+      width: 230px;
+      height: 310px;
+      justify-items: center;
+      padding: 20px; }
+      .services-features-desc h1 {
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+        font-size: 15pt;
+        color: #1b1b1b;
+        letter-spacing: 8px; }
+      .services-features-desc p {
+        font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+        font-size: 12pt;
+        color: #707070;
+        word-spacing: 6px;
+        line-height: 25px; }
+    .services-features-graph {
+      background-color: #ffffff;
+      text-align: left;
+      padding: 7px; }
+      .services-features-graph progress::-webkit-progress-bar {
+        width: 247px;
+        height: 5px;
+        margin-bottom: 15px;
+        background-color: #f4f4f4; }
+      .services-features-graph progress::-webkit-progress-value {
+        width: 247px;
+        height: 5px;
+        margin-bottom: 15px;
+        background-color: #ffe500; }
+      .services-features-graph progress::-moz-progress-bar {
+        width: 247px;
+        height: 5px;
+        margin-bottom: 15px;
+        background-color: #f4f4f4;
+        color: #ffe500; }
+      .services-features-graph progress {
+        width: 247px;
+        height: 5px;
+        margin-bottom: 15px;
+        background-color: #f4f4f4;
+        color: #ffe500; }
+      .services-features-graph p {
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+        font-size: 13pt;
+        color: #1b1b1b;
+        margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */
