@@ -1,0 +1,42 @@
+*
+  margin: 0
+  padding: 0
+
+.header
+  background-color: #1a1a1a
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: minmax(70px, 1fr) 4fr 4fr 1fr
+  align-items: center
+  justify-items: center
+  &-menu
+    grid-column-start: 3
+  &-section
+    grid-row-start: 2
+    grid-column: 1 / end
+    align-self: flex-end
+    font-family: "﻿Raleway-Regular", "﻿AdobeInvisFont", "﻿MyriadPro-Regular", sans-serif
+    color: rgba(255, 255, 255, 255)
+    text-align: center
+    h1
+      font-size: 20pt
+      letter-spacing: 15px
+    p
+      margin-top: 37px
+      font-size: 13pt
+      letter-spacing: 6px
+  &-button
+    grid-row-start: 3
+    align-self: flex-start
+    background-color: #ffe500
+    border: none
+    grid-column: 1 / end
+    margin-top: 50px
+    padding: 16px 34px 21px
+    font-family: "﻿Raleway-Bold", "﻿AdobeInvisFont", "﻿MyriadPro-Regular", sans-serif
+    font-size: 10pt
+    color: rgba(27, 27, 27, 255)
+    letter-spacing: 4px
+  &-arrow
+    grid-row-start: 4
+    grid-column: 1 / end
