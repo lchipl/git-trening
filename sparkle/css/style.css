@@ -149,4 +149,139 @@
         color: #1b1b1b;
         margin-bottom: 10px; }
 
+.statistics {
+  background-color: #1a1a1a;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-column-gap: 31px;
+  height: 240px;
+  align-content: center;
+  justify-content: center; }
+  .statistics div {
+    text-align: center;
+    height: 70px;
+    background-color: #ffffff;
+    padding-top: 10px; }
+    .statistics div span {
+      letter-spacing: 9px;
+      font-family: ﻿Montserrat-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+      font-size: 15pt;
+      color: #1b1b1b; }
+    .statistics div p {
+      letter-spacing: 4px;
+      margin-top: 13px;
+      font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+      font-size: 13pt;
+      color: #1b1b1b; }
+
+.portfolio {
+  display: grid;
+  min-height: 1109px;
+  grid-template-rows: minmax(263px, max-content) 190px 439px 217px;
+  align-items: flex-end;
+  justify-items: center; }
+  .portfolio-title {
+    margin: 50px;
+    display: grid;
+    justify-items: center;
+    text-align: center; }
+    .portfolio-title p {
+      font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+      font-size: 15pt;
+      color: #707070;
+      margin-top: 41px;
+      line-height: 30px;
+      word-spacing: 7px;
+      max-width: 754px; }
+    .portfolio-title h1 {
+      font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+      font-size: 20pt;
+      color: #1b1b1b;
+      margin-top: 35px;
+      letter-spacing: 20px; }
+  .portfolio-nav {
+    display: grid;
+    grid-template-columns: 235px 235px 230px 235px 235px;
+    justify-content: center;
+    align-items: center; }
+    .portfolio-nav-link {
+      height: 62px;
+      text-align: center;
+      display: grid;
+      align-content: center;
+      border: 1px solid #6f6f6f;
+      border-left: 0;
+      border-right: 0; }
+      .portfolio-nav-link p {
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+        font-size: 13pt;
+        color: #1b1b1b; }
+    .portfolio-nav img {
+      justify-self: center;
+      align-self: center; }
+  .portfolio-projs {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 320px 1fr);
+    height: 350px; }
+    .portfolio-projs > .white {
+      background-color: #f4f4f4; }
+    .portfolio-projs > .black {
+      background-color: #1a1a1a; }
+    .portfolio-projs-doe {
+      display: grid;
+      grid-template-columns: 32px 236px 32px;
+      grid-template-rows: 35px 190px 35px;
+      align-content: center;
+      justify-content: center; }
+      .portfolio-projs-doe-text {
+        grid-row: 2/3;
+        grid-column: 1/4;
+        background-color: #ffffff;
+        z-index: 1;
+        text-align: center;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+        font-size: 13pt;
+        color: #1b1b1b; }
+        .portfolio-projs-doe-text h1 {
+          letter-spacing: 4px; }
+        .portfolio-projs-doe-text p {
+          word-spacing: 6px;
+          line-height: 23px; }
+      .portfolio-projs-doe-yellow {
+        grid-row: 1/4;
+        grid-column: 2/3;
+        background-color: #fde831;
+        z-index: 0; }
+  .portfolio > button {
+    background-color: #ffe500;
+    font-family: ﻿Raleway-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 10pt;
+    color: #1b1b1b;
+    width: 230px;
+    height: 45px;
+    border: none;
+    align-self: center; }
+
+.veiw {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 380px;
+  background-color: #1a1a1a; }
+  .veiw button {
+    background-color: inherit;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-left: 12px;
+    height: 77px;
+    width: 369px;
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 15pt;
+    color: #ffe600;
+    border: 1px solid #ffe600; }
+
 /*# sourceMappingURL=style.css.map */
