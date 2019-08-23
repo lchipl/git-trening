@@ -284,4 +284,148 @@
     color: #ffe600;
     border: 1px solid #ffe600; }
 
+.team {
+  height: 1593px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: minmax(262px, max-content) 603px 90px 187px 22px 166px 22px 187px;
+  grid-template-columns: repeat(4, 270px);
+  grid-column-gap: 30px;
+  align-items: flex-end;
+  justify-content: center;
+  justify-items: center; }
+  .team-axes {
+    grid-column: 1/end;
+    grid-row: 1/2;
+    display: grid;
+    justify-items: center;
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    max-width: 754px; }
+    .team-axes h1 {
+      font-size: 20pt;
+      color: #1b1b1b;
+      letter-spacing: 15px;
+      margin-top: 35px; }
+    .team-axes p {
+      font-size: 15pt;
+      color: #707070;
+      text-align: center;
+      word-spacing: 6px;
+      line-height: 30px;
+      margin-top: 41px; }
+  .team-man {
+    grid-row-start: 2;
+    box-shadow: 0 0 20px #e1e1e1; }
+    .team-man-photo {
+      background-color: #1a1a1a;
+      height: 290px;
+      width: auto; }
+    .team-man-name {
+      background-color: #d1bc05;
+      font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+      font-size: 15pt;
+      display: flex;
+      color: #1b1b1b;
+      height: 60px;
+      align-items: center;
+      justify-content: center; }
+    .team-man-desc {
+      height: 165px;
+      padding: 0 31px 0 27px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+      font-size: 12pt;
+      color: #707070;
+      word-spacing: 5px; }
+  .team-black1 {
+    grid-row: 4/7;
+    grid-column: 1/3; }
+  .team-black2 {
+    grid-row: 6/9;
+    grid-column: 3/5; }
+  .team-quote1 {
+    grid-row: 8/9;
+    grid-column: 1/3; }
+    .team-quote1 span {
+      justify-self: flex-start; }
+  .team-quote2 {
+    grid-row: 4/5;
+    grid-column: 3/5; }
+    .team-quote2 span {
+      justify-self: flex-end; }
+  .team-yellow {
+    background-color: #ffe500;
+    grid-row: 5/8;
+    grid-column: 1/-1;
+    width: 101vw;
+    height: 100%;
+    z-index: 0; }
+  .team-black {
+    background-color: #1a1a1a;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 12pt;
+    color: white;
+    text-align: left;
+    display: grid;
+    align-content: center;
+    justify-content: center; }
+    .team-black p {
+      padding: 0 76px; }
+  .team-quote {
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 12pt;
+    color: #707070;
+    text-align: center;
+    display: grid; }
+
+.footer {
+  height: 386px;
+  background-color: #1a1a1a;
+  display: grid;
+  grid-template-columns: 404px 200px 157px 371px;
+  justify-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+  font-size: 12pt;
+  color: white; }
+  .footer a:not(.footer-contact-web) {
+    display: block;
+    text-decoration: none; }
+    .footer a:not(.footer-contact-web):not(.footer-contact-mail) {
+      color: white; }
+  .footer img {
+    margin-left: 17px;
+    margin-bottom: 29px; }
+  .footer-desc {
+    width: 369px;
+    margin-bottom: 59px; }
+  .footer-sign {
+    margin-bottom: 13px; }
+    .footer-sign-yellow {
+      color: #ead302; }
+  .footer-links > *, .footer-about > * {
+    margin-bottom: 27px; }
+  .footer-contact h3 {
+    margin-bottom: 26px; }
+  .footer-contact p {
+    margin-bottom: 47px; }
+  .footer-contact-mail {
+    background-color: #ffe500;
+    width: 371px;
+    height: 15px;
+    padding: 12px 0 17px;
+    font-family: ﻿Roboto-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 13pt;
+    color: #1b1b1b;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 55px; }
+
 /*# sourceMappingURL=style.css.map */
