@@ -150,3 +150,300 @@
         font-size: 13pt
         color: rgba(27, 27, 27, 255)
         margin-bottom: 10px
+
+.statistics
+  background-color: #1a1a1a
+  display: grid
+  grid-template-columns: repeat(4, 270px)
+  grid-column-gap: 31px
+  height: 240px
+  align-content: center
+  justify-content: center
+  div
+    text-align: center
+    height: 70px
+    background-color: #ffffff
+    padding-top: 10px
+    span
+      letter-spacing: 9px
+      font-family: ﻿Montserrat-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+      font-size: 15pt
+      color: rgba(27, 27, 27, 255)
+    p
+      letter-spacing: 4px
+      margin-top: 13px
+      font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+      font-size: 13pt
+      color: rgba(27, 27, 27, 255)
+
+.portfolio
+  display: grid
+  min-height: 1109px
+  grid-template-rows: minmax(263px, max-content) 190px 439px 217px
+  align-items: flex-end
+  justify-items: center
+  &-title
+    margin: 50px
+    display: grid
+    justify-items: center
+    text-align: center
+    p
+      font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+      font-size: 15pt
+      color: rgba(112, 112, 112, 255)
+      margin-top: 41px
+      line-height: 30px
+      word-spacing: 7px
+      max-width: 754px
+    h1
+      font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+      font-size: 20pt
+      color: rgba(27, 27, 27, 255)
+      margin-top: 35px
+      letter-spacing: 20px
+
+  &-nav
+    display: grid
+    grid-template-columns: 235px 235px 230px 235px 235px
+    justify-content: center
+    align-items: center
+    &-link
+      height: 62px
+      text-align: center
+      display: grid
+      align-content: center
+      border: 1px solid #6f6f6f
+      border-left: 0
+      border-right: 0
+      p
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular
+        font-size: 13pt
+        color: rgba(27, 27, 27, 255)
+    img
+      justify-self: center
+      align-self: center
+
+  &-projs
+    display: grid
+    width: 100%
+    grid-template-columns: repeat(3, 320px 1fr)
+    height: 350px
+    & > .white
+      background-color: #f4f4f4
+    & > .black
+      background-color: #1a1a1a
+    &-doe
+      display: grid
+      grid-template-columns: 32px 236px 32px
+      grid-template-rows: 35px 190px 35px
+      align-content: center
+      justify-content: center
+      &-text
+        grid-row: 2 / 3
+        grid-column: 1 / 4
+        background-color: #ffffff
+        z-index: 1
+        text-align: center
+        display: grid
+        align-items: center
+        justify-content: center
+        font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+        font-size: 13pt
+        color: rgba(27, 27, 27, 255)
+        h1
+          letter-spacing: 4px
+        p
+          word-spacing: 6px
+          line-height: 23px
+      &-yellow
+        grid-row: 1 / 4
+        grid-column: 2 / 3
+        background-color: #fde831
+        z-index: 0
+
+  & > button
+    background-color: #ffe500
+    font-family: ﻿Raleway-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+    font-size: 10pt
+    color: rgba(27, 27, 27, 255)
+    width: 230px
+    height: 45px
+    border: none
+    align-self: center
+
+.veiw
+  display: grid
+  justify-content: center
+  align-content: center
+  height: 380px
+  background-color: #1a1a1a
+  button
+    background-color: inherit
+    letter-spacing: 12px
+    text-align: center
+    padding-left: 12px
+    height: 77px
+    width: 369px
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+    font-size: 15pt
+    color: rgba(255, 230, 0, 255)
+    border: 1px solid rgba(255, 230, 0, 255)
+
+.team
+  height: 1593px
+  background-color: #ffffff
+  display: grid
+  grid-template-rows: minmax(262px, max-content) 603px 90px 187px 22px 166px 22px 187px
+  grid-template-columns: repeat(4, 270px)
+  grid-column-gap: 30px
+  align-items: flex-end
+  justify-content: center
+  justify-items: center
+
+  &-axes
+    grid-column: 1 / end
+    grid-row: 1 / 2
+    display: grid
+    justify-items: center
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+    max-width: 754px
+    h1
+      font-size: 20pt
+      color: rgba(27, 27, 27, 255)
+      letter-spacing: 15px
+      margin-top: 35px
+    p
+      font-size: 15pt
+      color: rgba(112, 112, 112, 255)
+      text-align: center
+      word-spacing: 6px
+      line-height: 30px
+      margin-top: 41px
+
+  &-man
+    grid-row-start: 2
+    box-shadow: 0 0 20px #e1e1e1
+    &-photo
+      background-color: #1a1a1a
+      height: 290px
+      width: auto
+    &-name
+      background-color: #d1bc05
+      font-family: ﻿Raleway-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+      font-size: 15pt
+      display: flex
+      color: rgba(27, 27, 27, 255)
+      height: 60px
+      align-items: center
+      justify-content: center
+    &-desc
+      height: 165px
+      padding: 0 31px 0 27px
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+      font-size: 12pt
+      color: rgba(112, 112, 112, 255)
+
+
+
+
+      word-spacing: 5px
+
+  &-black1
+    grid-row: 4 / 7
+    grid-column: 1 / 3
+
+  &-black2
+    grid-row: 6 / 9
+    grid-column: 3 / 5
+
+  &-quote1
+    grid-row: 8 / 9
+    grid-column: 1 / 3
+    span
+      justify-self: flex-start
+
+  &-quote2
+    grid-row: 4 / 5
+    grid-column: 3 / 5
+    span
+      justify-self: flex-end
+
+  &-yellow
+    background-color: #ffe500
+    grid-row: 5 / 8
+    grid-column: 1 / -1
+    width: 101vw
+    height: 100%
+    z-index: 0
+
+  &-black
+    background-color: #1a1a1a
+    z-index: 1
+    height: 100%
+    width: 100%
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+    font-size: 12pt
+    color: rgba(255, 255, 255, 255)
+    text-align: left
+    display: grid
+    align-content: center
+    justify-content: center
+    p
+      padding: 0 76px
+
+  &-quote
+    font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+    font-size: 12pt
+    color: rgba(112, 112, 112, 255)
+    text-align: center
+    display: grid
+
+.footer
+  height: 386px
+  background-color: #1a1a1a
+  display: grid
+  grid-template-columns: 404px 200px 157px 371px
+  justify-items: flex-start
+  justify-content: center
+  align-content: center
+  font-family: ﻿Raleway-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+  font-size: 12pt
+  color: rgba(255, 255, 255, 255)
+  a:not(.footer-contact-web)
+    display: block
+    text-decoration: none
+    &:not(.footer-contact-mail)
+      color: rgba(255, 255, 255, 255)
+  img
+    margin-left: 17px
+    margin-bottom: 29px
+  &-desc
+    width: 369px
+    margin-bottom: 59px
+  &-sign
+    margin-bottom: 13px
+    &-yellow
+      color: #ead302
+  &-links, &-about
+    & > *
+      margin-bottom: 27px
+  &-contact
+    h3
+      margin-bottom: 26px
+    p
+      margin-bottom: 47px
+    &-mail
+      background-color: #ffe500
+      width: 371px
+      height: 15px
+      padding: 12px 0 17px
+      font-family: ﻿Roboto-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif
+      font-size: 13pt
+      color: rgba(27, 27, 27, 255)
+      text-align: center
+      border-radius: 20px
+      margin-bottom: 55px
